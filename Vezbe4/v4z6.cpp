@@ -4,6 +4,7 @@
 ///Additional space: O(string.size()^2)
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 using namespace std;
 
