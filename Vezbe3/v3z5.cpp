@@ -1,7 +1,7 @@
 ///v3z5
 ///Author: Ognjen Arsenijevic
 ///Time Complexity: O(nw)
-///Additional space: O(nw)
+///Additional space: O(w)
 #include <iostream>
 #include <vector>
 #include <utility>
