@@ -9,19 +9,19 @@ using namespace std;
 
 int n,arr[1005],arr1[1005];
 
-int median(int arr[], int n)
+double median(int arr[], int n)
 {
     if(n&1)
         return arr[n/2];
-    return (arr[n/2]+arr[n/2-1])/2;
+    return (arr[n/2]+arr[n/2-1])/2.0;
 }
 
-int solve(int arr[], int arr1[], int n)
+double solve(int arr[], int arr1[], int n)
 {
     if(n==1)
-        return (arr[0]+arr1[0])/2;
+        return (arr[0]+arr1[0])/2.0;
     if(n==2)
-        return (max(arr[0],arr1[0])+min(arr[1],arr1[1]))/2;
+        return (max(arr[0],arr1[0])+min(arr[1],arr1[1]))/2.0;
     int m=median(arr,n);
     int m1=median(arr1,n);
     if(m==m1)
