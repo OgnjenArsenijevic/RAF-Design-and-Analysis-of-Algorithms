@@ -1,4 +1,4 @@
-///v7z6
+///v7z7
 ///Author: Ognjen Arsenijevic
 #include <iostream>
 #include <cstring>
