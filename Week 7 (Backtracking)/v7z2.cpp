@@ -8,7 +8,8 @@
 using namespace std;
 
 int n;
-char mat[100][100],ansCnt;
+char mat[100][100];
+int ansCnt;
 
 bool attacked(int ii, int jj)
 {
